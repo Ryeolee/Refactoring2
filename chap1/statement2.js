@@ -1,5 +1,14 @@
 
-
+/**
+ * ## 리팩토링 순서
+ * 1. 반복문 쪼개기
+ * 2. 문장 슬라이드하기
+ * 3. 함수 추출하기
+ * 4. 변수 인라인하기
+ * @param {*} invoice 
+ * @param {*} plays 
+ * @returns 
+ */
 export function statement(invoice, plays) {
     let totalAmount = 0;
 
