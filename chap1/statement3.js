@@ -3,7 +3,7 @@ const play = require('../plays.json');
 
 
 
-const createStatementData = require('./createStatementData.js');
+const createStatementData = require('./createStatementData2.js');
 
 function statement(invoice, plays) {
   return renderPlainText(createStatementData(invoice, plays));
